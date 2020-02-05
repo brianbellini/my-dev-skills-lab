@@ -18,8 +18,36 @@ body {
 
 
 table {
+    table-layout: fixed;
+    border-collapse: collapse;
     width: 100%;
     min-height: 30%;
     grid-area: 2 / 2;
-    border: 2px solid black;
+    line-height: 40px;
 }
+
+thead {
+    background-color: var(--header-bg-color);
+    color: white;
+    height: 50px;
+}
+
+
+
+#button-cell {
+    text-align: right;
+}
+
+#add-button, input{
+    border: 3px solid var(--outline-color);
+    color: var(--outline-color);
+    padding: 5%;
+}
+
+#input-box {
+    width: 140%;
+    line-height: 100%;
+}
+
+
+
