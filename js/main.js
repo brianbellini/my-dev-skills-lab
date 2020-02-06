@@ -7,7 +7,7 @@ var template =  '';
 $('tfoot').on('click','#add-button',function() {
     newSkill = $('#input-box').val()
     template =   `<tr>
-                    <td><button class="remove-button">X</button>${newSkill}</td>
+                    <td colspan='2'><button class="remove-button">X</button>${newSkill}</td>
                 </tr>`;
     $('tbody').append(template)
 });
